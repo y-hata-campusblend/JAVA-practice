@@ -46,3 +46,4 @@ public class Sample6 extends Frame
     }
 
 }
+
