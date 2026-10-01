@@ -6,7 +6,7 @@ class Sample3
 {
     public static void main(String[] args)throws IOException
     {
-        System.out.println("2つの整数を入力してください。");
+        System.out.println("2つの整数x,yを入力してください。");
 
         BufferedReader br =
                 new BufferedReader(new InputStreamReader(System.in));
@@ -18,9 +18,9 @@ class Sample3
         int y = Integer.parseInt(str2);
 
         if(x>y){
-            System.out.println(x+"は"+y+"より大きい。");
+            System.out.println("xはyより大きい。");
         } else if(y>x){
-            System.out.println(y+"は"+x+"より大きい。");
+            System.out.println("xはyより小さい");
         }
     }
 }
