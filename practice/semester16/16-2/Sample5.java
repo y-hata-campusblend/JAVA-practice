@@ -36,3 +36,6 @@ public class Sample5 extends Frame
     }
 }
 
+
+kobayashi
+
