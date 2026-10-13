@@ -1,10 +1,15 @@
 //int 型の変数 x に数値を入力し、x の値を表示するプログラムを作成してください。
 
-class Sample8
-{
-    public static void main(String[] args)
-    {
-        int x = 527;
+import java.io.*;
+
+class Sample8 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br =
+                new BufferedReader(new InputStreamReader(System.in));
+
+        String str = br.readLine();
+        int x = Integer.parseInt(str);
+
         System.out.println(x);
     }
 }

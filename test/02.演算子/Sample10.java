@@ -1,14 +1,23 @@
 //2つの整数値を入力し、平均値を求めるプログラムを作成してください。
 //※計算は整数で行い、小数点以下は切り捨ててよい。
 
-class Sample10
-{
-    public static void main(String[] args)
-    {
-        int x = 13;
-        int y = 25;
+import java.io.*;
 
-        System.out.println((x+y)/2);
+class Sample10 {
+    public static void main(String[] args) throws IOException {
+
+        System.out.println("数字を二つ入力してください。");
+
+        BufferedReader br =
+                new BufferedReader(new InputStreamReader(System.in));
+
+        String str = br.readLine();
+        String str1 = br.readLine();
+
+        int x = Integer.parseInt(str);
+        int y = Integer.parseInt(str1);
+
+        System.out.println((x + y) / 2);
     }
 
 }
