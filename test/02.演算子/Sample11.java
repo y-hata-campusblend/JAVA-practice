@@ -3,13 +3,9 @@
 //※変数を使用しない。
 //※ System.out.println()の引数部分で演算を行う。
 
-import java.io.*;
-
-class Sample11
-{
-    public static void main(String[] args)
-    {
-        System.out.println(13*17);
+class Sample11 {
+    public static void main(String[] args) {
+        System.out.println(13 * 17);
     }
 }
 
